@@ -9,7 +9,10 @@ public class Ok_javaGoinHomeInput {
 
 	public static void main(String[] args) {
 		
-		String id = JOptionPane.showInputDialog("Enter a id");
+		String id = JOptionPane.showInputDialog("Enter a ID");
+		String bright = JOptionPane.showInputDialog("Enter a Bright level");
+		
+	
 		
 		// Elevator call
 		//Elevator = datatype, myElevator = 변
@@ -28,7 +31,7 @@ public class Ok_javaGoinHomeInput {
 		floorLamp.on();
 		
 		DimmingLights moodLamp = new DimmingLights(id+" moodLamp");
-		moodLamp.setBright(0);
+		moodLamp.setBright(Double.parseDouble(bright));
 		moodLamp.on();
 				
 	}
