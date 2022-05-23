@@ -5,7 +5,6 @@ public class FirstMethod {
 		
 		System.out.println("Hello Method");
 		System.out.println(Math.floor(1.1));
-		
 	}
 
 }
