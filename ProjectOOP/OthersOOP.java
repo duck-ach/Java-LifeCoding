@@ -27,4 +27,5 @@ public class OthersOOP {
 	}
 
 }
+// instance는 class(변수+메소드의 집합체)를 복사한 후 새로운 이름을 부여하여 선언한 
  
